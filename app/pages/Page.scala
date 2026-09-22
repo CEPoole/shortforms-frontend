@@ -16,6 +16,8 @@
 
 package pages
 
+import models.ReasonsToCompleteATaxReturn
+
 import scala.language.implicitConversions
 
 trait Page
@@ -25,3 +27,5 @@ object Page {
   implicit def toString(page: Page): String =
     page.toString
 }
+
+trait ReasonsPage[A](val key: ReasonsToCompleteATaxReturn) extends QuestionPage[A]

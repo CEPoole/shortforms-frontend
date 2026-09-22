@@ -6,6 +6,7 @@ site.change = Change
 site.no = No
 site.yes = Yes
 site.continue = Continue
+site.submit = Submit
 site.start = Start now
 site.startAgain = Start again
 site.signIn = Sign in
@@ -47,3 +48,191 @@ signedOut.guidance = We did not save your answers.
 
 unauthorised.title = You can’t access this service with this account
 unauthorised.heading = You can’t access this service with this account
+
+whatIsYourName.title = What is your name?
+whatIsYourName.heading = What is your name?
+whatIsYourName.checkYourAnswersLabel = Name
+whatIsYourName.error.required = Enter your name
+whatIsYourName.error.length = Your name must be 100 characters or less
+whatIsYourName.change.hidden = your name
+
+haveYouEverChangedYourLastName.title = Have you ever changed your last name?
+haveYouEverChangedYourLastName.heading = Have you ever changed your last name?
+haveYouEverChangedYourLastName.checkYourAnswersLabel = Have you ever had another last name?
+haveYouEverChangedYourLastName.error.required = Select yes if you have ever changed your last name
+haveYouEverChangedYourLastName.change.hidden = if you''ve had a different last name
+
+dateLastNameChanged.title = What was the date that your last name changed?
+dateLastNameChanged.heading = What was the date that your last name changed?
+dateLastNameChanged.hint = For example, 12 11 2017.
+dateLastNameChanged.checkYourAnswersLabel = The date your last name changed
+dateLastNameChanged.error.required.all = Enter the date your last name changed
+dateLastNameChanged.error.required.two = The date must include {0} and {1}
+dateLastNameChanged.error.required = The date must include {0}
+dateLastNameChanged.error.invalid = Enter a real date in the past
+dateLastNameChanged.change.hidden = the date that your last name changed
+
+dateOfBirth.title = What is your date of birth?
+dateOfBirth.heading = What is your date of birth?
+dateOfBirth.hint = For example, 12 11 2007.
+dateOfBirth.checkYourAnswersLabel = Date of birth
+dateOfBirth.error.required.all = Enter your date of birth
+dateOfBirth.error.required.two = The date must include {0} and {1}
+dateOfBirth.error.required = The date must include {0}
+dateOfBirth.error.invalid = Enter a real date in the past
+dateOfBirth.change.hidden = your date of birth
+
+dateYouMovedToAddress.title = What was the date that you moved to your current address?
+dateYouMovedToAddress.heading = What was the date that you moved to your current address?
+dateYouMovedToAddress.hint = For example, 12 11 2007.
+dateYouMovedToAddress.checkYourAnswersLabel = Date you moved to current address
+dateYouMovedToAddress.error.required.all = Enter the date you moved to your current address
+dateYouMovedToAddress.error.required.two = The date must include {0} and {1}
+dateYouMovedToAddress.error.required = The date must include {0}
+dateYouMovedToAddress.error.invalid = Enter a real date in the past
+dateYouMovedToAddress.change.hidden = the date you moved address
+
+daytimeTelephoneNumber.title = What is your daytime telephone number?
+daytimeTelephoneNumber.heading = What is your daytime telephone number?
+daytimeTelephoneNumber.checkYourAnswersLabel = Daytime telephone number
+daytimeTelephoneNumber.error.required = Enter a telephone number
+daytimeTelephoneNumber.error.length = Telephone number must be 100 characters or less
+daytimeTelephoneNumber.change.hidden = your daytime telephone number
+
+emailAddress.title = What is your email address?
+emailAddress.heading = What is your email address?
+emailAddress.checkYourAnswersLabel = Email address
+emailAddress.error.required = Enter an email address
+emailAddress.error.length = Email address must be 100 characters or less
+emailAddress.change.hidden = your email address
+
+reasonsToCompleteATaxReturn.title = Why do you need to complete a tax return?
+reasonsToCompleteATaxReturn.heading = Why do you need to complete a tax return?
+reasonsToCompleteATaxReturn.director = I am a company director
+reasonsToCompleteATaxReturn.property = I''m getting income from land and property in the UK
+reasonsToCompleteATaxReturn.foreignIncome = I''m getting taxable foreign income of £300 or more
+reasonsToCompleteATaxReturn.trust = I receive annual income from a trust or settlement
+reasonsToCompleteATaxReturn.incomeThreshold = My annual income exceeded the threshold
+reasonsToCompleteATaxReturn.nonPAYE = I''ve untaxed income which cannot be coded in PAYE
+reasonsToCompleteATaxReturn.cgt = I have Capital Gains to pay
+reasonsToCompleteATaxReturn.other = Other reason
+reasonsToCompleteATaxReturn.checkYourAnswersLabel = Why do you need to complete a tax return?
+reasonsToCompleteATaxReturn.error.required = Select reasonsToCompleteATaxReturn
+reasonsToCompleteATaxReturn.change.hidden = ReasonsToCompleteATaxReturn
+
+whatIsYourNationalInsuranceNumber.title = What is your national insurance number?
+whatIsYourNationalInsuranceNumber.heading = What is your national insurance number?
+whatIsYourNationalInsuranceNumber.checkYourAnswersLabel = National Insurance Number
+whatIsYourNationalInsuranceNumber.error.required = Enter your national insurance number
+whatIsYourNationalInsuranceNumber.error.length = Your national insurance number must be 13 characters or less
+whatIsYourNationalInsuranceNumber.change.hidden = your national insurance number
+
+whatWasYourPreviousLastName.title = What was your previous last name?
+whatWasYourPreviousLastName.heading = What was your previous last name?
+whatWasYourPreviousLastName.checkYourAnswersLabel = Previous last name
+whatWasYourPreviousLastName.error.required = Enter your previous last name
+whatWasYourPreviousLastName.error.length = Your name must be 100 characters or less
+whatWasYourPreviousLastName.change.hidden = your previous last name
+
+childBenefit.title = Child benefit
+childBenefit.heading = Child benefit
+childBenefit.checkYourAnswersLabel = childBenefit
+childBenefit.error.required = Select yes if childBenefit
+childBenefit.change.hidden = ChildBenefit
+
+dateExceededIncomeThreshold.title = What date did you exceed income threshold?
+dateExceededIncomeThreshold.heading = What date did you exceed income threshold?
+dateExceededIncomeThreshold.hint = For example, 12 11 2026.
+dateExceededIncomeThreshold.checkYourAnswersLabel = Date you exceeded income threshold
+dateExceededIncomeThreshold.error.required.all = Enter the date you exceeded the income threshold
+dateExceededIncomeThreshold.error.required.two = The date must include {0} and {1}
+dateExceededIncomeThreshold.error.required = The date must include {0}
+dateExceededIncomeThreshold.error.invalid = Enter a real date in the past
+dateExceededIncomeThreshold.change.hidden = the date that you exceeded income threshold
+
+dateNonPAYEIncome.title = What date did you start to receive untaxed income?
+dateNonPAYEIncome.heading = What date did you start to receive untaxed income?
+dateNonPAYEIncome.hint = For example, 12 11 2025.
+dateNonPAYEIncome.checkYourAnswersLabel = Date you received untaxed income
+dateNonPAYEIncome.error.required.all = Enter the date you started to receive untaxed income
+dateNonPAYEIncome.error.required.two = The date must include {0} and {1}
+dateNonPAYEIncome.error.required = The date must include {0}
+dateNonPAYEIncome.error.invalid = Enter a real date in the past
+dateNonPAYEIncome.change.hidden = the date you started to receive untaxed income
+
+dateOfCapitalGains.title = What was the tax year end date where Capital Gains are owed?
+dateOfCapitalGains.heading = What was the tax year end date where Capital Gains are owed?
+dateOfCapitalGains.hint = For example, 12 11 2025.
+dateOfCapitalGains.checkYourAnswersLabel = Tax year end for Capital Gains owed
+dateOfCapitalGains.error.required.all = Enter the tax year end date where Capital Gains are owed
+dateOfCapitalGains.error.required.two = The date must include {0} and {1}
+dateOfCapitalGains.error.required = The date must include {0}
+dateOfCapitalGains.error.invalid = Enter a real date in the past
+dateOfCapitalGains.change.hidden = the tax year end date where Capital Gains are owed
+
+dateOfChildBenefit.title = DateOfChildBenefit
+dateOfChildBenefit.heading = DateOfChildBenefit
+dateOfChildBenefit.hint = For example, 12 11 2007.
+dateOfChildBenefit.checkYourAnswersLabel = DateOfChildBenefit
+dateOfChildBenefit.error.required.all = Enter the dateOfChildBenefit
+dateOfChildBenefit.error.required.two = The dateOfChildBenefit must include {0} and {1}
+dateOfChildBenefit.error.required = The dateOfChildBenefit must include {0}
+dateOfChildBenefit.error.invalid = Enter a real DateOfChildBenefit
+dateOfChildBenefit.change.hidden = DateOfChildBenefit
+
+dateOfDirectorIncome.title = What was the earliest date you received untaxed income from a Directorship?
+dateOfDirectorIncome.heading = What was the earliest date you received untaxed income from a Directorship?
+dateOfDirectorIncome.hint = For example, 12 11 2007.
+dateOfDirectorIncome.checkYourAnswersLabel = Date of Director income
+dateOfDirectorIncome.error.required.all = Enter the date you received untaxed income from a Directorship
+dateOfDirectorIncome.error.required.two = The date must include {0} and {1}
+dateOfDirectorIncome.error.required = The date must include {0}
+dateOfDirectorIncome.error.invalid = Enter a real date in the past
+dateOfDirectorIncome.change.hidden = the earliest date you received untaxed income from a Directorship
+
+dateOfForeignIncome.title = What is the earliest date you started receiving taxable foreign income?
+dateOfForeignIncome.heading = What is the earliest date you started receiving taxable foreign income?
+dateOfForeignIncome.hint = For example, 12 11 2007.
+dateOfForeignIncome.checkYourAnswersLabel = Date of foreign income
+dateOfForeignIncome.error.required.all = Enter the earliest date you started receiving taxable foreign income?
+dateOfForeignIncome.error.required.two = The date must include {0} and {1}
+dateOfForeignIncome.error.required = The date must include {0}
+dateOfForeignIncome.error.invalid = Enter a real date in the past
+dateOfForeignIncome.change.hidden = the earliest date you started receiving taxable foreign income?
+
+dateOfOtherReason.title = What date does this reason apply from?
+dateOfOtherReason.heading = What date does this reason apply from
+dateOfOtherReason.hint = For example, 12 11 2007.
+dateOfOtherReason.checkYourAnswersLabel = Date your reason applies from
+dateOfOtherReason.error.required.all = Enter the date from when this reason applies
+dateOfOtherReason.error.required.two = The date must include {0} and {1}
+dateOfOtherReason.error.required = The date must include {0}
+dateOfOtherReason.error.invalid = Enter a real date in the past
+dateOfOtherReason.change.hidden = the date that this reason applies from
+
+dateOfPropertyIncome.title = What was the earliest date your started receiving income from land and property?
+dateOfPropertyIncome.heading = What was the earliest date your started receiving income from land and property?
+dateOfPropertyIncome.hint = For example, 12 11 2007.
+dateOfPropertyIncome.checkYourAnswersLabel = Date of Property income
+dateOfPropertyIncome.error.required.all = Enter the date
+dateOfPropertyIncome.error.required.two = The date must include {0} and {1}
+dateOfPropertyIncome.error.required = The date must include {0}
+dateOfPropertyIncome.error.invalid = Enter a real date in the past
+dateOfPropertyIncome.change.hidden = the earliest date your started receiving income from land and property?
+
+dateOfTrustIncome.title = What was the date that annual income from a trust or settlement started?
+dateOfTrustIncome.heading = What was the date that annual income from a trust or settlement started?
+dateOfTrustIncome.hint = For example, 12 11 2007.
+dateOfTrustIncome.checkYourAnswersLabel = Date of income from a trust or settlement
+dateOfTrustIncome.error.required.all = Enter the date that annual income from a trust or settlement started
+dateOfTrustIncome.error.required.two = The date must include {0} and {1}
+dateOfTrustIncome.error.required = The date must include {0}
+dateOfTrustIncome.error.invalid = Enter a real date in the past
+dateOfTrustIncome.change.hidden = the date that annual income from a trust or settlement started?
+
+otherReason.title = What other reason do you have to file a tax return?
+otherReason.heading = What other reason do you have to file a tax return?
+otherReason.checkYourAnswersLabel = Other reason
+otherReason.error.required = Enter a reason
+otherReason.error.length = Your reason must be 1000 characters or less
+otherReason.change.hidden = your reason to file a tax return

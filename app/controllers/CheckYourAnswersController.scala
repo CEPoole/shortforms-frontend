@@ -20,8 +20,10 @@ import com.google.inject.Inject
 import controllers.actions.{DataRequiredAction, DataRetrievalAction, IdentifierAction}
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.{Action, AnyContent, MessagesControllerComponents}
+import uk.gov.hmrc.govukfrontend.views.viewmodels.summarylist.SummaryListRow
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendBaseController
-import viewmodels.govuk.summarylist._
+import viewmodels.checkAnswers.*
+import viewmodels.govuk.summarylist.*
 import views.html.CheckYourAnswersView
 
 class CheckYourAnswersController @Inject()(
@@ -35,11 +37,24 @@ class CheckYourAnswersController @Inject()(
 
   def onPageLoad(): Action[AnyContent] = (identify andThen getData andThen requireData) {
     implicit request =>
+      val dataForSummary: Seq[SummaryListRow] = Seq(
+        WhatIsYourNameSummary,
+        HaveYouEverChangedYourLastNameSummary,
+        WhatWasYourPreviousLastNameSummary,
+        WhatIsYourNationalInsuranceNumberSummary,
+        DateOfBirthSummary,
+        DateYouMovedToAddressSummary,
+        DaytimeTelephoneNumberSummary,
+        EmailAddressSummary,
+        ReasonsToCompleteATaxReturnSummary
+      )
+        .flatMap(_.row(request.userAnswers))
+        .:++(ReasonsToCompleteATaxReturnSummary.rows(request.userAnswers))
 
       val list = SummaryListViewModel(
-        rows = Seq.empty
+        rows = dataForSummary
       )
 
-      Ok(view(list))
+      Ok(view(list, controllers.routes.IndexController.onPageLoad().url))
   }
 }

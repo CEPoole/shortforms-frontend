@@ -19,3 +19,109 @@ GET         /account/sign-out                            controllers.auth.AuthCo
 GET         /account/signed-out                          controllers.auth.SignedOutController.onPageLoad()
 
 GET         /unauthorised                                controllers.UnauthorisedController.onPageLoad()
+
+GET        /what-is-your-name                            controllers.WhatIsYourNameController.onPageLoad(mode: Mode = NormalMode)
+POST       /what-is-your-name                            controllers.WhatIsYourNameController.onSubmit(mode: Mode = NormalMode)
+
+GET        /date-last-name-changed                       controllers.DateLastNameChangedController.onPageLoad(mode: Mode = NormalMode)
+POST       /date-last-name-changed                  controllers.DateLastNameChangedController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateLastNameChanged                        controllers.DateLastNameChangedController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateLastNameChanged                        controllers.DateLastNameChangedController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateOfBirth                  controllers.DateOfBirthController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateOfBirth                  controllers.DateOfBirthController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateOfBirth                        controllers.DateOfBirthController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateOfBirth                        controllers.DateOfBirthController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateYouMovedToAddress                  controllers.DateYouMovedToAddressController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateYouMovedToAddress                  controllers.DateYouMovedToAddressController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateYouMovedToAddress                        controllers.DateYouMovedToAddressController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateYouMovedToAddress                        controllers.DateYouMovedToAddressController.onSubmit(mode: Mode = CheckMode)
+
+GET        /daytimeTelephoneNumber                        controllers.DaytimeTelephoneNumberController.onPageLoad(mode: Mode = NormalMode)
+POST       /daytimeTelephoneNumber                        controllers.DaytimeTelephoneNumberController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDaytimeTelephoneNumber                  controllers.DaytimeTelephoneNumberController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDaytimeTelephoneNumber                  controllers.DaytimeTelephoneNumberController.onSubmit(mode: Mode = CheckMode)
+
+GET        /emailAddress                        controllers.EmailAddressController.onPageLoad(mode: Mode = NormalMode)
+POST       /emailAddress                        controllers.EmailAddressController.onSubmit(mode: Mode = NormalMode)
+GET        /changeEmailAddress                  controllers.EmailAddressController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeEmailAddress                  controllers.EmailAddressController.onSubmit(mode: Mode = CheckMode)
+
+GET        /haveYouEverChangedYourLastName                        controllers.HaveYouEverChangedYourLastNameController.onPageLoad(mode: Mode = NormalMode)
+POST       /haveYouEverChangedYourLastName                        controllers.HaveYouEverChangedYourLastNameController.onSubmit(mode: Mode = NormalMode)
+GET        /changeHaveYouEverChangedYourLastName                  controllers.HaveYouEverChangedYourLastNameController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeHaveYouEverChangedYourLastName                  controllers.HaveYouEverChangedYourLastNameController.onSubmit(mode: Mode = CheckMode)
+
+GET        /reasonsToCompleteATaxReturn                        controllers.ReasonsToCompleteATaxReturnController.onPageLoad(mode: Mode = NormalMode)
+POST       /reasonsToCompleteATaxReturn                        controllers.ReasonsToCompleteATaxReturnController.onSubmit(mode: Mode = NormalMode)
+GET        /changeReasonsToCompleteATaxReturn                  controllers.ReasonsToCompleteATaxReturnController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeReasonsToCompleteATaxReturn                  controllers.ReasonsToCompleteATaxReturnController.onSubmit(mode: Mode = CheckMode)
+
+GET        /changeWhatIsYourName                  controllers.WhatIsYourNameController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeWhatIsYourName                  controllers.WhatIsYourNameController.onSubmit(mode: Mode = CheckMode)
+
+GET        /whatIsYourNationalInsuranceNumber                        controllers.WhatIsYourNationalInsuranceNumberController.onPageLoad(mode: Mode = NormalMode)
+POST       /whatIsYourNationalInsuranceNumber                        controllers.WhatIsYourNationalInsuranceNumberController.onSubmit(mode: Mode = NormalMode)
+GET        /changeWhatIsYourNationalInsuranceNumber                  controllers.WhatIsYourNationalInsuranceNumberController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeWhatIsYourNationalInsuranceNumber                  controllers.WhatIsYourNationalInsuranceNumberController.onSubmit(mode: Mode = CheckMode)
+
+GET        /whatWasYourPreviousLastName                        controllers.WhatWasYourPreviousLastNameController.onPageLoad(mode: Mode = NormalMode)
+POST       /whatWasYourPreviousLastName                        controllers.WhatWasYourPreviousLastNameController.onSubmit(mode: Mode = NormalMode)
+GET        /changeWhatWasYourPreviousLastName                  controllers.WhatWasYourPreviousLastNameController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeWhatWasYourPreviousLastName                  controllers.WhatWasYourPreviousLastNameController.onSubmit(mode: Mode = CheckMode)
+
+GET        /childBenefit                        controllers.ChildBenefitController.onPageLoad(mode: Mode = NormalMode)
+POST       /childBenefit                        controllers.ChildBenefitController.onSubmit(mode: Mode = NormalMode)
+GET        /changeChildBenefit                  controllers.ChildBenefitController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeChildBenefit                  controllers.ChildBenefitController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateExceededIncomeThreshold                  controllers.DateExceededIncomeThresholdController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateExceededIncomeThreshold                  controllers.DateExceededIncomeThresholdController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateExceededIncomeThreshold                        controllers.DateExceededIncomeThresholdController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateExceededIncomeThreshold                        controllers.DateExceededIncomeThresholdController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateNonPAYEIncome                  controllers.DateNonPAYEIncomeController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateNonPAYEIncome                  controllers.DateNonPAYEIncomeController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateNonPAYEIncome                        controllers.DateNonPAYEIncomeController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateNonPAYEIncome                        controllers.DateNonPAYEIncomeController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateOfCapitalGains                  controllers.DateOfCapitalGainsController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateOfCapitalGains                  controllers.DateOfCapitalGainsController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateOfCapitalGains                        controllers.DateOfCapitalGainsController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateOfCapitalGains                        controllers.DateOfCapitalGainsController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateOfChildBenefit                  controllers.DateOfChildBenefitController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateOfChildBenefit                  controllers.DateOfChildBenefitController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateOfChildBenefit                        controllers.DateOfChildBenefitController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateOfChildBenefit                        controllers.DateOfChildBenefitController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateOfDirectorIncome                  controllers.DateOfDirectorIncomeController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateOfDirectorIncome                  controllers.DateOfDirectorIncomeController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateOfDirectorIncome                        controllers.DateOfDirectorIncomeController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateOfDirectorIncome                        controllers.DateOfDirectorIncomeController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateOfForeignIncome                  controllers.DateOfForeignIncomeController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateOfForeignIncome                  controllers.DateOfForeignIncomeController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateOfForeignIncome                        controllers.DateOfForeignIncomeController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateOfForeignIncome                        controllers.DateOfForeignIncomeController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateOfOtherReason                  controllers.DateOfOtherReasonController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateOfOtherReason                  controllers.DateOfOtherReasonController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateOfOtherReason                        controllers.DateOfOtherReasonController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateOfOtherReason                        controllers.DateOfOtherReasonController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateOfPropertyIncome                  controllers.DateOfPropertyIncomeController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateOfPropertyIncome                  controllers.DateOfPropertyIncomeController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateOfPropertyIncome                        controllers.DateOfPropertyIncomeController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateOfPropertyIncome                        controllers.DateOfPropertyIncomeController.onSubmit(mode: Mode = CheckMode)
+
+GET        /dateOfTrustIncome                  controllers.DateOfTrustIncomeController.onPageLoad(mode: Mode = NormalMode)
+POST       /dateOfTrustIncome                  controllers.DateOfTrustIncomeController.onSubmit(mode: Mode = NormalMode)
+GET        /changeDateOfTrustIncome                        controllers.DateOfTrustIncomeController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeDateOfTrustIncome                        controllers.DateOfTrustIncomeController.onSubmit(mode: Mode = CheckMode)
+
+GET        /otherReason                        controllers.OtherReasonController.onPageLoad(mode: Mode = NormalMode)
+POST       /otherReason                        controllers.OtherReasonController.onSubmit(mode: Mode = NormalMode)
+GET        /changeOtherReason                  controllers.OtherReasonController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeOtherReason                  controllers.OtherReasonController.onSubmit(mode: Mode = CheckMode)
